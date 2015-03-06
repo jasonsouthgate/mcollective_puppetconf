@@ -2,11 +2,11 @@
 
 This is a demo system for my "Advanced MCollective" presentation at Puppetconf 2015.
 
-It's a small n-node cluster of machines for demoing the features of MCollective, along with some custom agents.  In particular I am demoing a mysql mcollective agent, which I hope will be the most useful to people out there in the wild, but the same premise applies to whatever technology you wish to orchestrate with MCollective.
+It's a small n-node cluster of machines for demoing the features of MCollective, along with some custom agents.  In particular I am demoing a *mysql mcollective agent*, which I hope will be the most useful to people out there in the wild, but the same premise applies to whatever technology you wish to orchestrate with MCollective.
 
-I'm also demoing how to fix the heartbleed vulnerability on this cluster with a one-liner!
+I'm also demoing *how to fix the heartbleed vulnerability on this cluster with a one-line command*
 
-It is also for demonstrating some basic ruby TDD and rspec unit testing around the mysql agent.
+It is also for *demonstrating some basic ruby TDD and rspec unit testing* around the mysql agent.
 
 ##How do I use it?##
 
