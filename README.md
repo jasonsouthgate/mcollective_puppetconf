@@ -6,7 +6,7 @@ It's a small n-node cluster of machines for demoing the features of MCollective,
 
 I'm also demoing how to fix the heartbleed vulnerability on this cluster with a one-liner!
 
-It also illustrates some rspec unit testing around the mysql agent.
+It is also for demonstrating some basic ruby TDD and rspec unit testing around the mysql agent.
 
 ##How do I use it?##
 
