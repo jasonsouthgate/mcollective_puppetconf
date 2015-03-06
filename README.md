@@ -1,8 +1,12 @@
 # mcollective_puppetconf
 
-Demo system for my "Advanced MCollective" presentation at Puppetconf 2015
+##What is it?##
 
-This is a small n-node cluster of machines for demoing the features of MCollective, along with some custom agents.  In particular I am demoing a mysql agent, which I hope will be the most useful to people out there in the wild, but the same premise applies to whatever technology you wish to orchestrate with MCollective.
+This is a demo system for my "Advanced MCollective" presentation at Puppetconf 2015.
+
+It's a small n-node cluster of machines for demoing the features of MCollective, along with some custom agents.  In particular I am demoing a mysql mcollective agent, which I hope will be the most useful to people out there in the wild, but the same premise applies to whatever technology you wish to orchestrate with MCollective.
+
+I'm also demoing how to fix the heartbleed vulnerability on this cluster with a one-liner!
 
 Just clone this repo and then run `vagrant up`!
 
@@ -24,5 +28,8 @@ Server roles are used, and the appropriate MCollective agents for that role are 
 | VAGRANT_SUBNET.9      | webserver |
 | VAGRANT_SUBNET.10      | mcollective |
 
+##Vagrant Provider##
+
 I am running this using the [VMWare Fusion](https://www.vmware.com/products/fusion/fusion-evaluation) Vagrant [provider](http://www.vagrantup.com/vmware).  I recommend these for stability and speed and have in fact recently run into some serious issues using the freeware Virtualbox.
 
+Although this Vagrantfile does support the virtualbox provider, you'll have to set the `VAGRANT_PROVIDER` environment variable to `virtualbox` to use it.  By default it's set to `vmware`.
