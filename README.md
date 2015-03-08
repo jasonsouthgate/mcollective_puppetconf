@@ -16,7 +16,7 @@ You can set the `VAGRANT_INSTANCES` environment variable to indicate the number 
 
 ###Server roles###
 
-Server roles are used, and the appropriate MCollective agents for that role are automatically deployed. e.g. nodes 1 and 2 on the subnet are mysql and memcached nodes, and nodes 3-9 are all webservers.  Node 10 is reserved for the MCollective middleware and client:
+Server roles are used, and the appropriate MCollective agents for that role are automatically deployed. e.g. nodes 1 and 2 on the subnet are mysql and memcached nodes, and nodes 3-9 are all webservers.  Node 10 is reserved for the MCollective client and middleware:
 
 | Node        | Role           |
 | ------------- |-------------|
@@ -36,4 +36,5 @@ Server roles are used, and the appropriate MCollective agents for that role are 
 
 I am running this using the [VMWare Fusion](https://www.vmware.com/products/fusion/fusion-evaluation) Vagrant [provider](http://www.vagrantup.com/vmware).  I recommend these for stability and speed and have in fact recently run into some serious issues using the freeware Virtualbox.
 
-Although this Vagrantfile does support the virtualbox provider, you'll have to set the `VAGRANT_PROVIDER` environment variable to `virtualbox` to use it.  By default it's set to `vmware`.
+Although this Vagrantfile does support the virtualbox provider, you'll have to set the `VAGRANT_PROVIDER` environment variable to `virtualbox` to use it.  By default it's set to `vmware_fusion`.
+
